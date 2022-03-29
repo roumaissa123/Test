@@ -1,0 +1,24 @@
+
+
+<div >
+    
+    <div class="input-group ">
+        <input type="text" class="form-control input-sm" type="number" [(ngModel)]="colums" />
+        <span class="input-group-btn" style="width:0px;"></span>
+        <input type="text" class="form-control input-sm" type="number" [(ngModel)]="rows" />
+        <button type="button" class="btn btn-info " (click)="setDimension()" type="button" id ="btn">Change</button>
+    </div>
+    
+    
+</div>
+  <div class="grid-container ">
+
+     <div  *ngFor="let j of colArray">
+   
+        <div  *ngFor="let i of rowArray">
+            <div class="flex-item stl " [ngStyle]="{'background-color': getStyles( (i-1)*10+j )}" >{{(i-1)*10+j}} </div>
+        </div> 
+
+    </div> 
+    
+  </div>
