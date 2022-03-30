@@ -6,7 +6,7 @@
 - Si le nombre est divisible par 5, coloriez la case en vert.
 - Si le nombre est divisible par 3 et 5, coloriez la case en jaune. 
 
-L'application s'addpte à la taille de l'écran (Résepensive).
+L'application s'adapte à la taille de l'écran (Résepensive).
 
 ## Contenu de projet 
 
