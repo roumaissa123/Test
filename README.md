@@ -6,10 +6,14 @@
 - Si le nombre est divisible par 5, coloriez la case en vert.
 - Si le nombre est divisible par 3 et 5, coloriez la case en jaune. 
 
+L'application s'addpte à la taille de l'écran (Résepensive).
+
 ## Contenu de projet 
+
 Contiens deux menus Grid et About me:
 - Grid : permet d'afficher une grille selon le nombre de lignes et de colonnes souhaité.
 - About Me : Contient quelques informations sur le créateur de projet (moi) ainsi ses coordonnés.
+
 
 ## framework
 Réaliser avec Angular 13.2.6. 
